@@ -5,38 +5,116 @@
     font-family: 'Source Sans 3', sans-serif;
 }
 
-header {
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
-img {
-    height: 100px;
-    margin: 30px 0 50px 0;
+a {
+    text-decoration: none;
 }
 
-.large-sign-in-box {
-    border: 1px solid rgba(180, 175, 175, 0.375);
-    margin: 0 25% 0 25%;
-    max-width: 370px;
-    padding: 2px 20px 20px 20px;
+img {
+    height: 75px;
+    margin: 30px 0 40px 0;
+}
 
+/* Box for Sign in and New Account Button */
+
+.main-box {
+    margin: 20px;
+}
+
+
+/* Sign in box */
+
+.sign-in-box {
+    border: 1px solid rgba(180, 175, 175, 0.375);
+    text-align: left;
+    padding: 20px;
+    padding-top: 5px;
+    width: 370px;
+}
+
+.sign-in-box label, input, button {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.sign-in-box label, button{
+    font-size: 0.8rem;
+}
+
+.sign-in-box a {
+    font-size: 0.9rem;
+    color: rgb(0, 119, 255);
+}
+
+.sign-in-box span {
+    font-size: 0.5rem;
+    color: rgb(0, 119, 255);
+}
+
+.sign-in-box input {
+    width: 100%;
+    margin-bottom: 20px;
+    color: rgba(180, 175, 175, 0.99);
+    padding: 2px 4px;
+}
+
+.sign-in-box button {
+    width: 100%;
+    margin: 20px 0 20px 0;
+}
+
+/* Password flex box */
+
+.password-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.password-box label {
+    padding-left: 30px;
+}
+
+/* New Account Button Box */
+.new-account {
+    padding: 0 20px;
+}
+
+.new-account button {
+    width: 100%;
 }
 
 .line-new-to-peanuts {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10px
+    padding: 10px 0;
 }
 
 .line-new-to-peanuts p {
     font-weight: 200;
     font-size: 0.9rem;
+    width: 100%;
 }
 
 hr {
     color: rgba(180, 175, 175);
-    width: 100px;
+    width: 100%;
 }
 
+/* Footer and below */
 
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+footer hr {
+    color: rgba(180, 175, 175);
+    width: 100%;
+}
