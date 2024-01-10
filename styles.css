@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+img {
+    height: 100px;
+    margin: 30px 0 50px 0;
+}
+
+.large-sign-in-box {
+    border: 1px solid rgba(180, 175, 175, 0.375);
+    margin: 0 25% 0 25%;
+    max-width: 370px;
+    padding: 2px 20px 20px 20px;
+
+}
+
+.line-new-to-peanuts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px
+}
+
+.line-new-to-peanuts p {
+    font-weight: 200;
+    font-size: 0.9rem;
+}
+
+hr {
+    color: rgba(180, 175, 175);
+    width: 100px;
+}
+
+
